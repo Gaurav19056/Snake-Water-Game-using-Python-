@@ -7,7 +7,11 @@ print("---")
 computer=random.choice([0,1,2])
 your_choice=int(input("0 for snake,1 for water,2 for gun: "))
 if(your_choice==computer):
+    print("\n---")
+    print("  🤝🤝🤝")
     print("DRAW!!")
+    print("  🤝🤝🤝")
+    print("\n---")
 else:
     if(your_choice==0 and computer==1):
         print("you win!!")
