@@ -18,9 +18,17 @@ else:
         print("  🎉🎉🎉")
         print("you win!!")
     elif( your_choice==0 and computer==2):
-        print("you lose!!")
+        print("\n---")
+        print("  😭😭😭")
+        print("  OH NO! YOU LOSE!")
+        print("  😭😭😭")
+        print("---")
     elif(your_choice==1 and computer==0):
-        print("you lose!!")
+        print("\n---")
+        print("  😭😭😭")
+        print("  OH NO! YOU LOSE!")
+        print("  😭😭😭")
+        print("---")
     elif(your_choice==1 and computer==2):
         print("\n---")
         print("  🎉🎉🎉")
@@ -30,7 +38,11 @@ else:
         print("  🎉🎉🎉")
         print("you win!!")
     elif(your_choice==2 and computer==1):
-        print("you lose!!")
+        print("\n---")
+        print("  😭😭😭")
+        print("  OH NO! YOU LOSE!")
+        print("  😭😭😭")
+        print("---")
     else:
         print("invalid input")
 print("thank you for playing!! ;)")
