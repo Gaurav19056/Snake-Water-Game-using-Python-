@@ -14,14 +14,20 @@ if(your_choice==computer):
     print("\n---")
 else:
     if(your_choice==0 and computer==1):
+        print("\n---")
+        print("  🎉🎉🎉")
         print("you win!!")
     elif( your_choice==0 and computer==2):
         print("you lose!!")
     elif(your_choice==1 and computer==0):
         print("you lose!!")
     elif(your_choice==1 and computer==2):
+        print("\n---")
+        print("  🎉🎉🎉")
         print("you win!!")
     elif(your_choice==2 and computer==0):
+        print("\n---")
+        print("  🎉🎉🎉")
         print("you win!!")
     elif(your_choice==2 and computer==1):
         print("you lose!!")
